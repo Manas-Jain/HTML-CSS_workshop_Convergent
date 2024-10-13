@@ -15,7 +15,59 @@ h1 {
   margin-bottom: 10px;
 }
 
+h2 {
+  color: #005fa3;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
 p {
   font-size: 18px;
   color: #555;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 14px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #007acc;
+}
+
+section {
+  margin: 20px 0;
+}
+
+#projects ul {
+  padding: 0;
+}
+
+#projects li {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #005fa3;
 }
